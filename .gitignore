@@ -1,0 +1,23 @@
+# Xcode
+#
+# gitignore 贡献者：记得更新 Global/Xcode.gitignore、Objective-C.gitignore 和 Swift.gitignore
+
+＃＃用户设置
+用户数据/
+
+# # 与 Xcode 8 及更早版本的兼容性（忽略不需要启动 Xcode 9）
+* .xcscm蓝图
+* .xccheckout
+
+# # 与 Xcode 3 及更早版本的兼容性（忽略不需要启动 Xcode 4）
+建造/
+派生数据/
+* .moved-aside
+* .pbxuser
+！默认.pbxuser
+* .mode1v3
+！默认.mode1v3
+* .mode2v3
+！默认.mode2v3
+* .perspectivev3
+!default.perspectivev3
